@@ -1,0 +1,49 @@
+@media only screen and (min-width: 480px) and (max-width:767px) {
+
+  #b {
+    height: 150px;
+    border: 0px;
+  }
+  
+  #cd div {
+    height: 125px;
+  }
+  
+  #efgh div {
+    float: left;
+    width: 50%;
+    height: 250px;
+  }
+  
+  #cd div:last-of-type {
+    border: none;
+  }
+  
+  #i {
+    clear: both;
+    height: 50px;
+    border-top: none;
+  }
+  
+}
+
+@media only screen and (min-width: 768px) {
+  
+  #b {
+    float: left;
+    width: 20.83%;
+    height: 600px;
+  }
+
+  #cd div {
+    float: right;
+    width: 39.58%;
+    height: 200px;
+  }
+
+  #efgh div {
+    clear: both;
+    width: 19.79%;
+    height: 250px;
+  }
+}
