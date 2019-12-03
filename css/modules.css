@@ -1,18 +1,57 @@
+#b {
+  background-color: #37FF8B;
+}
+
+#cd div:first-of-type {
+  background-color: #51D6FF;
+}
+
+#cd div:nth-of-type(2) {
+  background-color: #8D9EC6;
+}
+
+#efgh div:first-of-type {
+  background-color: #A06B9A;
+}
+
+#efgh div:nth-of-type(2) {
+  background-color: #907876;
+}
+
+#efgh div:nth-of-type(3) {
+  background-color: #23A359;
+}
+
+#efgh div:nth-of-type(4) {
+  background-color: #1E4E5D;
+}
+
+#i {
+  background-color: #E5D6E3;
+}
+
 @media only screen and (min-width: 480px) and (max-width:767px) {
+
+  header {
+    line-height: 75px;
+  }
 
   #b {
     height: 150px;
+    line-height: 150px;
     border: 0px;
   }
   
   #cd div {
     height: 125px;
+    line-height: 125px;
   }
   
   #efgh div {
     float: left;
     width: 50%;
     height: 250px;
+    line-height: 250px;
   }
   
   #cd div:last-of-type {
@@ -22,6 +61,7 @@
   #i {
     clear: both;
     height: 50px;
+    line-height: 50px;
     border-top: none;
   }
   
@@ -29,21 +69,38 @@
 
 @media only screen and (min-width: 768px) {
   
+  header {
+    line-height: 100px;
+  }
+
   #b {
     float: left;
     width: 20.83%;
     height: 600px;
+    line-height: 600px;
   }
 
   #cd div {
     float: right;
     width: 39.58%;
     height: 200px;
+    line-height: 200px;
   }
 
   #efgh div {
     clear: both;
-    width: 19.79%;
+    display: inline-block;
+    width: 19.4%;
     height: 250px;
+    line-height: 250px;
+  }
+
+  #i {
+    clear: right;
+    float: right;
+    width: 79.16%;
+    height: 150px;
+    line-height: 150px;
+    margin-bottom: 50px;
   }
 }

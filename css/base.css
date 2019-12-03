@@ -6,7 +6,6 @@
   margin: 10%;
 }
 
-div, section, header {
-  background-color: #efefef;
-
+header {
+  background-color: #522B29;
 }
