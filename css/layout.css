@@ -1,0 +1,30 @@
+div, section {
+  border: 1px solid black;
+}
+
+* {
+  text-align: center;
+  vertical-align: middle;
+}
+
+@media only screen and (min-width: 480px) and (max-width:767px) {
+
+body {
+  margin: auto;
+  width: 480px;
+}
+
+header {
+  height: 75px;
+  border-bottom: 1px solid black;
+}
+
+#b {
+  height: 150px;
+  border: 0px;
+}
+
+#cd div {
+  height: 125px;
+}
+}
