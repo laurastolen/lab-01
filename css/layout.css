@@ -1,14 +1,10 @@
-div, section {
+section div, header, section {
   border: 1px solid black;
 }
 
 * {
   text-align: center;
-  vertical-align: middle;
-  border-collapse: collapse;
 }
-
-@media only screen and (min-width: 480px) and (max-width:767px) {
 
 body {
   margin: auto;
@@ -19,14 +15,15 @@ header {
   height: 75px;
   border-bottom: 1px solid black;
 }
-}
 
 @media only screen and (min-width: 768px) {
   
-.container {
-  max-width: 960px;
+body {
+  width: 960px;
 }
 
 header {
   height: 100px;
+}
+
 }
